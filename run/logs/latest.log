@@ -1,32 +1,73 @@
-[11:27:47] [main/INFO]: Setting user: Isaac
-[11:27:51] [main/WARN]: Skipping bad option: lastServer:
-[11:27:51] [main/INFO]: LWJGL Version: 2.9.4
-[11:27:56] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:myfirstmod
-[11:28:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:28:00] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[11:28:00] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:28:00] [Thread-5/ERROR]: Error in class 'LibraryLWJGLOpenAL'
-[11:28:00] [Thread-5/ERROR]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
-[11:28:00] [Thread-5/WARN]: ERROR MESSAGE:
-[11:28:00] [Thread-5/INFO]: Could not locate OpenAL library.
-[11:28:00] [Thread-5/WARN]: STACK TRACE:
-[11:28:00] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:156)
-[11:28:00] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:102)
-[11:28:00] [Thread-5/INFO]: org.lwjgl.openal.AL.create(AL.java:206)
-[11:28:00] [Thread-5/INFO]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
-[11:28:00] [Thread-5/INFO]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
-[11:28:00] [Thread-5/INFO]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
-[11:28:00] [Thread-5/INFO]: paulscode.sound.CommandThread.run(CommandThread.java:121)
-[11:28:00] [Sound Library Loader/WARN]: ERROR MESSAGE:
-[11:28:00] [Sound Library Loader/INFO]: Could not locate OpenAL library.
-[11:28:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:28:01] [Thread-7/INFO]: Switching to No Sound
-[11:28:01] [Thread-7/INFO]: (Silent Mode)
-[11:28:01] [Sound Library Loader/INFO]: Sound engine started
-[11:28:06] [main/INFO]: Created: 512x512 textures-atlas
-[11:28:10] [main/WARN]: Skipping bad option: lastServer:
-[11:28:10] [main/INFO]: Narrator library for x64 successfully loaded
-[11:28:13] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[11:28:26] [main/INFO]: Stopping!
-[11:28:26] [main/INFO]: SoundSystem shutting down...
-[11:28:26] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:37:45] [main/INFO]: Setting user: Isaac
+[14:37:52] [main/WARN]: Skipping bad option: lastServer:
+[14:37:52] [main/INFO]: LWJGL Version: 2.9.4
+[14:37:59] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My First Mod
+[14:38:14] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:38:14] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[14:38:14] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:38:16] [Thread-5/INFO]: OpenAL initialized.
+[14:38:16] [Sound Library Loader/INFO]: Sound engine started
+[14:38:24] [main/INFO]: Created: 512x512 textures-atlas
+[14:38:29] [main/WARN]: Skipping bad option: lastServer:
+[14:38:29] [main/INFO]: Narrator library for x64 successfully loaded
+[14:38:31] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[14:38:44] [main/INFO]: Deleting level New World
+[14:38:44] [main/INFO]: Attempt 1...
+[14:38:50] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[14:38:50] [Server thread/INFO]: Generating keypair
+[14:38:51] [Server thread/INFO]: Loaded 488 advancements
+[14:38:52] [Server thread/INFO]: Preparing start region for level 0
+[14:38:53] [Server thread/INFO]: Preparing spawn area: 6%
+[14:38:54] [Server thread/INFO]: Preparing spawn area: 12%
+[14:38:55] [Server thread/INFO]: Preparing spawn area: 21%
+[14:38:56] [Server thread/INFO]: Preparing spawn area: 30%
+[14:38:57] [Server thread/INFO]: Preparing spawn area: 41%
+[14:38:58] [Server thread/INFO]: Preparing spawn area: 50%
+[14:38:59] [Server thread/INFO]: Preparing spawn area: 61%
+[14:39:00] [Server thread/INFO]: Preparing spawn area: 71%
+[14:39:01] [Server thread/INFO]: Preparing spawn area: 84%
+[14:39:02] [Server thread/INFO]: Preparing spawn area: 97%
+[14:39:03] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:39:05] [Server thread/INFO]: Isaac[local:E:2681e450] logged in with entity id 875 at (-205.5, 64.0, -105.5)
+[14:39:05] [Server thread/INFO]: Isaac joined the game
+[14:39:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2209ms behind, skipping 44 tick(s)
+[14:39:07] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@726d1313[id=28d9990b-6154-3206-8bf4-7d7c95a0899d,name=Isaac,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3188) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:40:34] [main/INFO]: Loaded 7 advancements
+[14:40:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2341ms behind, skipping 46 tick(s)
+[14:41:22] [Server thread/INFO]: Saving and pausing game...
+[14:41:22] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[14:41:22] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[14:41:22] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[14:41:37] [Server thread/INFO]: Stopping server
+[14:41:37] [Server thread/INFO]: Saving players
+[14:41:37] [Server thread/INFO]: Isaac lost connection: Disconnected
+[14:41:37] [Server thread/INFO]: Isaac left the game
+[14:41:37] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[14:41:37] [Server thread/INFO]: Saving worlds
+[14:41:37] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[14:41:37] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[14:41:37] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[14:41:40] [main/INFO]: Stopping!
+[14:41:40] [main/INFO]: SoundSystem shutting down...
+[14:41:41] [main/WARN]: Author: Paul Lamb, www.paulscode.com

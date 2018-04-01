@@ -9,10 +9,11 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import com.isaac.myfirstmod.proxy.CommonProxy;
 
 
-@Mod(modid=MyFirstMod.MODID, version=MyFirstMod.VERSION)
+@Mod(modid=MyFirstMod.MODID, version = MyFirstMod.VERSION, name = MyFirstMod.NAME)
 public class MyFirstMod {
-	public static final String MODID="myfirstmod";
-	public static final String VERSION="1.0";
+	public static final String NAME = "My First Mod";
+	public static final String MODID = "myfirstmod";
+	public static final String VERSION = "1.0";
 	
 	@SidedProxy(clientSide="com.isaac.myfirstmod.proxy.ClientProxy", serverSide="com.isaac.myfirstmod.proxy.CommonProxy")
 	public static CommonProxy proxy;
@@ -34,5 +35,5 @@ public class MyFirstMod {
 		System.out.println("postInit has started...");
 		proxy.postInit(event);
 	}
-	
+
 }
